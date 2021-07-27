@@ -50,6 +50,8 @@
 
 /* верняя линия */
 /*Лого*/
+
+
 .header{
  border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -145,6 +147,8 @@
     margin-left: auto;
 }
  /*Шапка */
+
+
  .hero .container{
     
     text-align: center;
@@ -153,6 +157,22 @@
      padding-top: 200px;
      padding-bottom: 200px;
      background-color: #2F303A;
+
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Img-hero.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
  }
 
 .hero-text {
@@ -224,6 +244,33 @@ margin: 0;
 margin-left: 30px;
 }
 
+.features-list .list::before{
+    display: block;
+    content: "";
+    height: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  #F5F4FA;
+    margin-bottom: 30px;
+    
+}
+.logo-antenna::before{
+    background-image: url(../images/antenna-logo.png);
+    
+}
+.logo-clock::before{
+    background-image: url(../images/clock-logo.png);
+}
+.logo-diagram::before{
+    background-image: url(..//images/diagram-logo.png);
+}
+
+.logo-astronaut::before{
+    background-image: url(..//images/astronaut-logo.png);
+}
+
+
 /* Чем мы занимаемся */
 .business{
     padding-top: 0;
@@ -261,6 +308,7 @@ margin-bottom: 50px;
 /* Наша команда */
 
 
+}
 .team .container {
     background-color: #F5F4FA;
 }
