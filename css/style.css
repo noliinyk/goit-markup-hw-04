@@ -340,8 +340,8 @@
     display: flex;
   }
   .team-description {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   .team-item .list + .list {
@@ -372,7 +372,7 @@
   .media-links {
     margin-right: 0px;
     margin-top: 16px;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     margin-left: 0;
     /*padding: 12px 12px;*/
   }
@@ -510,6 +510,15 @@
   
   /* Порфолио */
   /* Фильтры */
+
+    /*скрытие h*/
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
   .button-filter {
     font-family: Roboto;
     background-color: #f5f4fa;
@@ -613,10 +622,6 @@
     padding: 24px 20px;
   }
   
-  /*скрытие h*/
-  .portfolio-title,
-  .filter-titles,
-  .features-title {
-    visibility: hidden;
-  }
+
+ 
   
